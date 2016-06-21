@@ -1,2 +1,2 @@
 # My Portfolio
-This is a personal portifolio. Actually its a website that hosted on GitHub. You can visit via the following url: https://rluena.github.io
+This is my portfolio website that is hosted on GitHub. Can be visited via the following url: https://rluena.github.io.
