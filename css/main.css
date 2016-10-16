@@ -1,6 +1,15 @@
 body {
 	background-color: #eee ;
-	background-clip: ;
+	// background-clip: ;
+}
+
+a {
+	color: #33CCCC;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #CCCC33;
 }
 
 .page-strip {
@@ -8,6 +17,7 @@ body {
     height: 0.6em;    
     position: absolute;
     width: 100%;
+    z-index: 1;
 }
 
 .sidebar-container {
@@ -16,7 +26,6 @@ body {
     color: white;
     height: 100vh;
     position: absolute;
-    z-index: 100;
 }
 
 .sidebar-container .personal-description {
@@ -26,15 +35,15 @@ body {
 
 .sidebar-container .brand-section {
 	text-align: center;
-    padding: 10px;
+    padding: 15px 10px;
 }
 
 .sidebar-container .brand-section .logo img {
-	width: 8em;
+	width: 5em;
 }
 
 .sidebar-container .brand-section h4 {
-	font-size: 32px;
+	font-size: 24px;
     color: #CCCC33;
 }
 
@@ -45,14 +54,16 @@ body {
 
 .sidebar-container .brand-section p {
 	font-weight: bold;
-    font-size: 17px;
+    font-size: 15px;
+    margin: -2px;
 }
 
 .sidebar-container .section h5 {
 	padding-left: 8px;
 	font-size: 1.2em;
 	font-weight: bold;
-	color: #CCCC33
+	color: #CCCC33;
+	margin: 0px;
 }
 
 .sidebar-container .section a {
@@ -67,11 +78,13 @@ body {
 
 .sidebar-container .section ul {
 	padding-right: 3px;
+	padding-top: 5px;
 }
 
 .sidebar-container .section ul > li{
 	list-style-type: hiragana;
 	line-height: 19px;
+	margin-bottom: 4px;
 }
 
 .top-nav .nav-li {
@@ -93,7 +106,47 @@ body {
 }
 
 .main-container {
-	display: inline-block;
+	height: 100vh; 
+	/* background: green; */
+	padding-left: 200px
+}
+
+.main-container .middle-container {
+    height: 100%;
+    width: 51em;
+    margin: 0 auto;
+    right: 20px;
+}
+
+.contents-container {
+	display: none;
+}
+
+section.active {
+	display: block;
+}
+
+.contents-container .contents {
+	padding-left: 12px;
+}
+
+.contents-container .sec-institution {
+	font-size: 2em;
+	color: #33CCCC;
+}
+
+.contents-container .sec-desc {
+	color: grey;
+	font-size: 16px;
+}
+
+.contents-container .sec-year {
+	font-size: 19px;
+}
+
+.contents-container .work-content .work-title {
+	font-size: 18px;
+	font-weight: bold;
 }
 
 .clear-both {
