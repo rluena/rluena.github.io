@@ -6,6 +6,11 @@
 	<title>Rabii - Portfolio</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" media="(max-width: 768px)" href="css/max768.css">
+	<script src="https://use.fontawesome.com/5c3154e975.js"></script>
+	<!-- <link rel="stylesheet" media="(min-width: 640px)" href="min-640px.css">
+	<link rel="stylesheet" media="(orientation: portrait)" href="portrait.css">
+	<link rel="stylesheet" media="(orientation: landscape)" href="landscape.css"> -->
 </head>
 <body>
 	<div class="page-strip"></div>
@@ -15,7 +20,7 @@
 				<img src="img/logo.png" alt="rabii_luena">
 			</div>
 			<h4>Rabii Luena</h4>
-			<p>Web Designer &amp; Developer</p>			
+			<p>Web Designer &amp; Developer</p>					
 		</div><!--/ END OF BRAND SECTION -->
 
 		<div class="personal-description">
@@ -25,6 +30,7 @@
 				<ul>
 					<li>Designing UIs for mobile and web applications.</li>
 					<li>Creating Web Apps using PHP and NodeJS</li>
+					<li>Developing Mobile Apps using React Native</li>
 					<li>Consuming APIs from Facebook and Google</li>
 				</ul>			
 			</section>
@@ -39,12 +45,12 @@
 				<h5>Where to find</h5>
 				<hr>
 				<ul>
-					<li><a href="http://github.com/rluena">Codes</a></li>
-					<li><a href="http://behance.com/rabii">Designs</a></li>
-					<li><a href="http://medium.com/luenarabii">Articles</a></li>
-					<li><a href="http://linkedin.com/rabiiluena">Connections</a></li>
+					<li><a href="http://github.com/rluena" target="_blank">Codes</a></li>
+					<li><a href="http://behance.com/rabii" target="_blank">Designs</a></li>
+					<li><a href="http://medium.com/luenarabii" target="_blank">Articles</a></li>
+					<li><a href="http://linkedin.com/rabiiluena" target="_blank">Connections</a></li>
 					<!-- <li><a href="http://youtube.com/learnintz">Channel</a></li> -->
-					<li><a href="http://twitter.com/rabiiluena">Tweets</a></li>
+					<li><a href="http://twitter.com/rabiiluena" target="_blank">Tweets</a></li>
 				</ul>			
 			</section>			
 		</div>		
@@ -52,7 +58,7 @@
 	
 	<!--/ MAIN NAVIGATION -->
 	<div class="main-container">
-		<div class="middle-container">
+		<div class="middle-container">			
 			<nav class="top-nav">
 				<ul>
 					<li class="nav-li active">
@@ -71,8 +77,23 @@
 			</nav>
 			<div style="clear: both;"></div>
 			<div class="main-contents">
+				<div class="mobile-header-info">
+					<div class="brand-section" style="text-align: center">
+						<div class="logo">
+							<img style="width: 80px" src="img/logo.png" alt="rabii_luena">
+						</div>
+						<h4>Rabii Luena</h4>
+						<p>Web Designer &amp; Developer</p>
+						<div>
+							<a href="http://github.com/rluena" target="_blank"><i class="fa fa-github fa-2x"></i></a>		
+							<a href="http://www.medium.com/@luenarabii" target="_blank"><i class="fa fa-medium fa-2x"></i></a>		
+							<a href="http://twitter.com/rabiiluena" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+						</div>			
+					</div><!--/ END OF BRAND SECTION -->
+				</div>
 				<section class="contents-container edu active">
 					<h2 class="transformed-header">Education</h2>
+					<hr>
 					<div class="vertical-divider"></div>
 					<div class="contents">
 						<div class="edu-content">
@@ -102,12 +123,13 @@
 
 				<section class="contents-container work">
 					<h2 class="transformed-header">Work &amp; Projects</h2>
+					<hr>
 					<div class="vertical-divider"></div>
 					<div class="contents">
 						<div class="work-content">
 							<h4 class="sec-institution">Freelancing</h4>
 							<p class="work-title">Mobile and Web Developer</p>
-							<p class="sec-desc">UI prototyping using Adobe Illustrator and MarveApp. Web and Mobile Development using NodeJS, PHP and React-Native.</p>
+							<p class="sec-desc">Web and Mobile Development using NodeJS, PHP and React-Native.</p>
 							<p class="sec-year">Feb 2017</p>
 						</div>
 
@@ -139,19 +161,19 @@
 					<div class="vertical-divider"></div>
 					<div class="contents">
 						<div>
-							<h4>PHP</h4>
+							<h4 class="blue-color">PHP</h4>
 							<p>Web application development using CodeIgniter and SQL.</p>
 						</div>
 						<div>
-							<h4>NodeJS</h4>
+							<h4 class="blue-color">NodeJS</h4>
 							<p>Web application development using ExpressJS and MongoDB.</p>
 						</div>
 						<div>
-							<h4>Mobile Development</h4>
+							<h4 class="blue-color">Mobile Development</h4>
 							<p>Mobile development using React-Native</p>
 						</div>
 						<div>
-							<h4>Frameworks, Libraries and Tools</h4>
+							<h4 class="blue-color">Frameworks, Libraries and Tools</h4>
 							<ul>
 								<li>Git &amp; GitHub</li>
 								<li>Webpack</li>
@@ -161,7 +183,7 @@
 							</ul>
 						</div>
 						<div>
-							<h4>UI Prototying</h4>
+							<h4 class="blue-color">UI Prototying</h4>
 							<ul>
 								<li>Illustrator</li>
 								<li>MarvelApp</li>								
@@ -179,19 +201,12 @@
 					</div>
 				</section>
 			</div>
+
+			<div class="footer pull-right">
+				Rabii Luena &copy; 2017 | Hosted By <a href="http://github.com">Github Pages</a>
+			</div>
 		</div>
-
-		<div class="footer">
-			Rabii Luena &copy; 2017 . <br>
-			Hosted By <a href="http://github.com">Github Pages</a>
-		</div>	
-		
 	</div><!--/ END OF MAIN CONTAINER -->
-
-	<div class="footer">
-		Rabii Luena &copy; 2017 . <br>
-		Hosted By <a href="http://github.com">Github Pages</a>
-	</div>	
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>

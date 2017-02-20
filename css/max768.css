@@ -1,0 +1,23 @@
+.sidebar-container {
+	display: none;	
+}
+
+.mobile-header-info {
+	display: block;	
+}
+
+.main-container .middle-container {
+	width: 100%;
+}
+
+.transformed-header {
+	text-align: center;
+	font-weight: bold;
+	// border-bottom: 1px solid red;
+}
+
+.top-nav {
+	font-size: 12px;
+	text-align: center;	
+}
+

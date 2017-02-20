@@ -15,9 +15,9 @@ a:hover {
 .page-strip {
 	background: #33CCCC;
     height: 0.6em;    
-    position: absolute;
-    width: 100%;
-    z-index: 1;
+    // position: absolute;
+    // width: 100%;
+    // z-index: 1;
 }
 
 .sidebar-container {
@@ -83,7 +83,7 @@ a:hover {
 
 .sidebar-container .section ul > li{
 	list-style-type: hiragana;
-	line-height: 19px;
+	line-height: 21px;
 	margin-bottom: 4px;
 }
 
@@ -108,7 +108,11 @@ a:hover {
 .main-container {
 	height: 100vh; 
 	/* background: green; */
-	padding-left: 200px
+	// padding-left: 200px
+}
+
+.blue-color {
+	color: #33CCCC;
 }
 
 .main-container .middle-container {
@@ -122,6 +126,10 @@ a:hover {
 	display: none;
 }
 
+.transformed-header {
+	font-size: 22px;
+}
+
 section.active {
 	display: block;
 }
@@ -130,8 +138,9 @@ section.active {
 	padding-left: 12px;
 }
 
+
 .contents-container .sec-institution {
-	font-size: 2em;
+	// font-size: 2em;
 	color: #33CCCC;
 }
 
@@ -141,7 +150,7 @@ section.active {
 }
 
 .contents-container .sec-year {
-	font-size: 19px;
+	font-size: 16px;
 }
 
 .contents-container .work-content .work-title {
@@ -154,6 +163,14 @@ section.active {
 }
 
 .footer {
-	bottom: 0px;
+	// bottom: 0px;
 	position: absolute;
+	text-align: center;
+}
+
+
+@media (min-width: 768px) {
+	.mobile-header-info {
+		display: none;
+	}
 }
