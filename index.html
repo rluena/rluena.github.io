@@ -1,215 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>Rabii - Portfolio</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" media="(max-width: 768px)" href="css/max768.css">
-	<script src="https://use.fontawesome.com/5c3154e975.js"></script>
-	<!-- <link rel="stylesheet" media="(min-width: 640px)" href="min-640px.css">
-	<link rel="stylesheet" media="(orientation: portrait)" href="portrait.css">
-	<link rel="stylesheet" media="(orientation: landscape)" href="landscape.css"> -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title> Rabii - Portfolio</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
 </head>
-<body>
-	<div class="page-strip"></div>
-	<div class="sidebar-container">
-		<div class="brand-section">
-			<div class="logo">
-				<img src="img/logo.png" alt="rabii_luena">
-			</div>
-			<h4>Rabii Luena</h4>
-			<p>Web Designer &amp; Developer</p>					
-		</div><!--/ END OF BRAND SECTION -->
+<body id="top">
 
-		<div class="personal-description">
-			<section class="section things-ido">
-				<h5>What I do</h5>
-				<hr>
-				<ul>
-					<li>Designing UIs for mobile and web applications.</li>
-					<li>Creating Web Apps using PHP and NodeJS</li>
-					<li>Developing Mobile Apps using React Native</li>
-					<li>Consuming APIs from Facebook and Google</li>
-				</ul>			
-			</section>
-			<section class="section contact">
-				<h5>How to reach</h5>
-				<hr>
-				<ul>
-					<li>luenarabii@gmail.com</li>		
-				</ul>			
-			</section>
-			<section class="section social">
-				<h5>Where to find</h5>
-				<hr>
-				<ul>
-					<li><a href="http://github.com/rluena" target="_blank">Codes</a></li>
-					<li><a href="http://behance.com/rabii" target="_blank">Designs</a></li>
-					<li><a href="http://medium.com/luenarabii" target="_blank">Articles</a></li>
-					<li><a href="http://linkedin.com/rabiiluena" target="_blank">Connections</a></li>
-					<!-- <li><a href="http://youtube.com/learnintz">Channel</a></li> -->
-					<li><a href="http://twitter.com/rabiiluena" target="_blank">Tweets</a></li>
-				</ul>			
-			</section>			
-		</div>		
-	</div><!--/ END OF SIDEBAR CONTAINER -->
-	
-	<!--/ MAIN NAVIGATION -->
-	<div class="main-container">
-		<div class="middle-container">			
-			<nav class="top-nav">
-				<ul>
-					<li class="nav-li active">
-						<a a_name = "edu" href="javascript:void(0)">Education</a>
-					</li>
-					<li class="nav-li">
-						<a a_name = "work" href="javascript:void(0)">Work &amp; Projects</a>
-					</li>
-					<li class="nav-li">
-						<a a_name = "skills" href="javascript:void(0)">Skills</a>
-					</li>
-					<li class="nav-li">
-						<a a_name = "contacts" href="javascript:void(0)">Contacts</a>
-					</li>
+	<header id="header">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<ul class="nav navbar-nav">
+					<li><a href="#me">Me</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#edu">Education</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="http://www.medium.com/@luenarabii">Articles</a></li>
 				</ul>
-			</nav>
-			<div style="clear: both;"></div>
-			<div class="main-contents">
-				<div class="mobile-header-info">
-					<div class="brand-section" style="text-align: center">
-						<div class="logo">
-							<img style="width: 80px" src="img/logo.png" alt="rabii_luena">
-						</div>
-						<h4>Rabii Luena</h4>
-						<p>Web Designer &amp; Developer</p>
-						<div>
-							<a href="http://github.com/rluena" target="_blank"><i class="fa fa-github fa-2x"></i></a>		
-							<a href="http://www.medium.com/@luenarabii" target="_blank"><i class="fa fa-medium fa-2x"></i></a>		
-							<a href="http://twitter.com/rabiiluena" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-						</div>			
-					</div><!--/ END OF BRAND SECTION -->
-				</div>
-				<section class="contents-container edu active">
-					<h2 class="transformed-header">Education</h2>
-					<hr>
-					<div class="vertical-divider"></div>
-					<div class="contents">
-						<div class="edu-content">
-							<h4 class="sec-institution">Udacity</h4>
-							<p class="sec-desc">Algorithm and JavaScript Design Patterns</p>
-							<p class="sec-year">2017</p>
-						</div>
-						<div class="edu-content">
-							<h4 class="sec-institution">Institute of Accountancy Arusha</h4>
-							<p class="sec-desc">Advanced Diploma in Computer Science</p>
-							<p class="sec-year">2013</p>
-						</div>
-
-						<div class="edu-content">
-							<h4 class="sec-institution">Ifunda Secondary School</h4>
-							<p class="sec-desc">Advanced Secondary Education Certificate</p>
-							<p class="sec-year">2006</p>
-						</div>
-
-						<div class="edu-content">
-							<h4 class="sec-institution">Ubungo Islamic Seminary</h4>
-							<p class="sec-desc">Secondary Education Certificate</p>
-							<p class="sec-year">2003</p>
-						</div>
-					</div>
-				</section>
-
-				<section class="contents-container work">
-					<h2 class="transformed-header">Work &amp; Projects</h2>
-					<hr>
-					<div class="vertical-divider"></div>
-					<div class="contents">
-						<div class="work-content">
-							<h4 class="sec-institution">Freelancing</h4>
-							<p class="work-title">Mobile and Web Developer</p>
-							<p class="sec-desc">Web and Mobile Development using NodeJS, PHP and React-Native.</p>
-							<p class="sec-year">Feb 2017</p>
-						</div>
-
-						<div class="work-content">
-							<h4 class="sec-institution">Transevents Co. Ltd.</h4>
-							<p class="work-title">Web Developer</p>
-							<p class="sec-desc">I was responsible for web development using PHP frameworks and JavaScript, collaborating on UI designing using Illustrator, bugs fixing and tracking team commits on BitBucket repository.</p>
-							<p class="sec-year">Nov 2015 to Feb 2017</p>
-						</div>
-
-						<div class="work-content">
-							<h4 class="sec-institution">The Amazon College</h4>
-							<p class="work-title">Computer Tutor</p>
-							<p class="sec-desc">I was responsible for teaching basic computer applications using MS products and graphic design using Adobe products.</p>
-							<p class="sec-year">May 2014 to Oct 2015</p>
-						</div>
-
-						<div class="work-content">
-							<h4 class="sec-institution">Freelancing</h4>
-							<p class="work-title">Graphics and Web Design</p>
-							<p class="sec-desc">Mostly created interesting personal projects, projects from family and friends, and projects from friends of friends. It was for fun, learning and earning few bucks sometimes.</p>
-							<p class="sec-year">After College to 2015</p>
-						</div>
-					</div>
-				</section>
-
-				<section class="contents-container skills">
-					<h2 class="transformed-header">Skills</h2>
-					<div class="vertical-divider"></div>
-					<div class="contents">
-						<div>
-							<h4 class="blue-color">PHP</h4>
-							<p>Web application development using CodeIgniter and SQL.</p>
-						</div>
-						<div>
-							<h4 class="blue-color">NodeJS</h4>
-							<p>Web application development using ExpressJS and MongoDB.</p>
-						</div>
-						<div>
-							<h4 class="blue-color">Mobile Development</h4>
-							<p>Mobile development using React-Native</p>
-						</div>
-						<div>
-							<h4 class="blue-color">Frameworks, Libraries and Tools</h4>
-							<ul>
-								<li>Git &amp; GitHub</li>
-								<li>Webpack</li>
-								<li>Gulp</li>
-								<li>jQuery</li>
-								<li>LESS</li>
-							</ul>
-						</div>
-						<div>
-							<h4 class="blue-color">UI Prototying</h4>
-							<ul>
-								<li>Illustrator</li>
-								<li>MarvelApp</li>								
-							</ul>
-						</div>
-					</div>
-				</section>
-
-				<section class="contents-container contacts">
-					<h2 class="transformed-header">Contacts</h2>
-					<div class="vertical-divider"></div>
-					<div class="contents">
-						<p>+255 714 061234</p>
-						<p>luenarabii@gmail.com</p>
-					</div>
-				</section>
 			</div>
+		</nav>
+		<div class="jumbotron">
+			<div class="contents-center text-center">
+				<!--<img src="img/profile.jpg" alt="mypic">-->
+				<h2>Rabii Luena</h2>
+				<h4>Web Developer</h4>
+				<p class="sub-title">JavaScript, NodeJS and PHP</p>
+				<!--<p class="work-status">Work Status: <span>Available for Work</span></p>-->
+				<div class="social-container">
+					<a href="http://github.com/rluena" class="social-icon"><i class="fa fa-github fa-2x"></i></a>
+					<!-- <a href="http://" class="social-icon"><i class="fa fa-messenger fa-2x"></i></a>				 -->
+					<a href="http://medium.com/@rabiiluena" class="social-icon"><i class="fa fa-medium fa-2x"></i></a>
+					<a href="http://behance.net/rabii" class="social-icon"><i class="fa fa-behance fa-2x"></i></a>
+					<a href="http://twitter.com/rabiiluena" class="social-icon"><i class="fa fa-twitter fa-2x"></i></a>
+				</div>
 
-			<div class="footer pull-right">
-				Rabii Luena &copy; 2017 | Hosted By <a href="http://github.com">Github Pages</a>
+				<a href="#contact" class="btn btn-default btn-lg">
+					Available for Hire
+				</a>
+
 			</div>
 		</div>
-	</div><!--/ END OF MAIN CONTAINER -->
+	</header>
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/main.js"></script>
+	<div class="container">
+		<section id="me" class="info-section about">
+			<h2 class="info-title">About</h2>
+			<hr class="title-divider">
+			<p>I have been developing web applications using PHP,  CodeIgniter, jQuery and MySQL for more than 2 years. <br>I also been building several projects with NodeJS, ExpressJS and MongoDB. </p>
+			<p>Now I am investing on understanding JavaScript design patterns, unit testing, React framework and other best practises on JavaScript.</p>
+			<!--<p>I taught myself graphics design in which turned out to be UI design skill. You can check few works at <a href="http://behance.net/rabii"> Behance</a></p>-->
+		</section>
+		<!-- End of about section -->
+
+		<section id="edu" class="info-section education">
+			<h2 class="info-title">Education</h2>
+			<hr class="title-divider">
+
+			<div class="row">
+				<div class="left-border" style="padding-left: 1em;">
+					<h4>Institute of Accountancy Arusha</h3>
+					<p>Advanced Diploma in Computer Science</p>
+					<p>Grad: Dec 2012</p>
+				</div>
+			</div>
+		</section>
+		<!-- End of education section -->
+
+		<section id="skills" class="info-section skills">
+			<h2 class="info-title">Skills</h2>
+			<hr class="title-devider">
+
+			<div class="row">
+				<div class="col-md-4 left-border">
+					<h4>Programming Languages</h4>
+					<div class="row">
+						<div class="col-md-4">
+							<ul>
+								<li>JavaScript</li>
+								<li>HTML5</li>
+								<li>CSS3</li>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<ul>
+								<li>PHP</li>
+								<li>Node.JS</li>
+								<li>SQL</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 left-border">
+					<h4>Frameworks &amp; Libraries</h4>
+					<div class="row">
+						<div class="col-md-4">
+							<ul>
+								<li>ExpressJS</li>
+								<li>JQuery</li>								
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<ul>
+								<li>jQuery</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 left-border">
+					<h4>Storage</h4>
+					<div class="row">
+						<div class="col-md-4">
+							<ul>
+								<li>MongoDB</li>
+								<li>JSON</li>								
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<ul>
+								<li>MySQL</li>
+							</ul>
+						</div>
+					</div>					
+				</div>
+			</div>
+			<!-- End of the first row -->
+			<div class="row">
+				<div class="col-md-4 left-border">
+					<h4>APIs</h4>
+					<div class="row">
+						<div class="col-md-4">
+							<ul>
+								<li>Facebook OAuth</li>
+								<li>Google OAuth</li>
+								<li>SendGrid API</li>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<ul>
+								<li>Messenger Chatbot</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 left-border">
+					<h4>Unit Testing</h4>
+					<div class="row">
+						<div class="col-md-4">
+							<ul>
+								<li>Mocha</li>
+								<li>Chai</li>								
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<ul>
+								<li>Instanbul.JS</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End of the first row -->
+		</section>
+		<!-- End of skills section -->
+
+		<section id="work" class="info-section work-experience">
+			<h2 class="info-title">Work Experience</h2>
+			<hr class="title-divider">
+
+			<div class="row">
+				<div class="section-item work-container left-border" style="padding-left: 1em;">
+					<h4 class="item-title work-title">Web Developer <span class="date-right pull-right">Nov 2015 - Feb 2017</span></h4>
+					<h5 class="item-subtitle">Transevents Co. LTD.</h5>
+					<ul>
+						<li>Responsible for web applications development using PHP, CodeIgniter framework and jQuery. Developing new features and bugs
+						fixing</li>
+						<li>Learned MVC architecture, basic of scrum and usage of pomodoro.</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="section-item work-container left-border" style="padding-left: 1em;">
+					<h4 class="item-title work-title">Assistant Computer Instructor <span class="date-right pull-right">May 2013 - Oct 2015</span></h4>
+					<h5 class="item-subtitle">The Amazon College</h5>
+					<ul class="item-desc">
+						<li>Responsible for teaching basic computer applications and graphics design using Adobe products. After teaching, it was easy to adapt and play around with UI design for web and mobile</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="text-center">
+				<a href="" class="btn btn-primary btn-lg" style="width: 10em;">Hire Me</a>
+			</div>
+		</section>
+		<!-- End of work experience -->
+
+		<section id="projects" class="info-section projects-section">
+			<h2 class="info-title">Projects</h2>
+			<!--<div class="section-item project-container">
+				<h3 class="section-item-title project-title">Learnin Tanzania</h3>
+				<div class="section-item-desc project-desc">
+					<p>A startup that we founded in 2014 with ambitious to provide facilities and mentorship that will support unskilled entreprenures, designers, programmers, students e.t.c to laverage the availability of Massive Open Online Course to expand their knowledge and skills. It was a learning cafe that people would use resources from edX, iTunes University, Udacity, YouTube and many more to open new opportunity that would help them achiving their dreams. It was a failure.</p>
+					<div class="left-container">
+						<ul>
+							<li>
+								<strong>Team</strong>
+								<ul>
+									<li>
+										<span>Mwajuma</span>
+										<p>Student interested on learning web design and was ready to assist other students with basic computer application.</p>
+									</li>
+									<li>
+										<span>Christina</span>
+										<p>She was a Computer Science graduate and computer teacher.</p>
+									</li>									
+								</ul>
+							</li>							
+						</ul>
+					</div>
+					<div class="right-container">
+						<h1>PHOTOS</h1>
+					</div>
+				</div>
+			</div>-->
+			
+			<!--<div class="section-item project-container">
+				<h3 class="section-item-title project-title">UpComings</h3>
+				<div class="section-item-desc project-desc">
+					<p>A web tool that helps users to generate and reserve a URL that can be mapped with any future online content(Article, Audio or Video). It's like <a href="http://bit.ly">bit.ly</a> but for content that shall be uploaded in the future. I loved the idea and then said to myself why not put it in existance.<a href="http://upcomings.co">Link</a></p>
+					<div class="left-container">Something left</div>
+					<div class="right-container">
+						<ul>
+							<li>Features
+								<ul>
+									<li>User registration and Login</li>
+									<li>Generating tiny URL</li>
+									<li>Reserving URL</li>
+									<li>Mapping reserved URL with existing URL</li>
+									<li>Sharing reserved URL</li>
+									<li>User can comments on reserved url</li>
+								</ul>
+							</li>
+							<li>Tools &amp; Technology
+								<ul>
+									<li>NodeJS (ExpressJS)</li>
+									<li><a href="http://mongodb.com">MongoDB</a> - Database</li>
+									<li><a href="http://heroku.com">Heroku</a> - Hosting Platform</li>
+									<li><a href="">Facebook Login API</a></li>
+									<li><a href="">Google Login API</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>-->
+		</section>
+		<!-- End of project section -->
+		<section>
+			
+		</section>
+	</div>
+
+	<div id="contact" class="text-center contact">
+		<div class="div-col-1">
+			<h3>Hire Me</h3>
+			<hr>
+			<p><span>Phone:</span>+255-714-061234</p>
+			<p><span>Email:</span>luenarabii[at]gmail[dot]com</p>
+			<a href="http://github.com/rluena"><i class="fa fa-github fa-2x"></i></a>
+			<a href="http://medium.com/@rabiiluena"><i class="fa fa-medium fa-2x"></i></a>
+			<a href="http://twitter.com/rabiiluena"><i class="fa fa-twitter fa-2x"></i></a>
+		</div>			
+	</div>
+	<div class="float-btn">
+		<a href="#top" class="btn btn-top">
+			<i class="fa fa-chevron-up fa-2x"></i>
+		</a>
+	</div>
+	<footer class="text-center">
+		Copyright &copy; 2017 Rabii Luena. Hosted By GitHub Pages.
+	</footer>
+	
+	<script src="dist/js/main.js"></script>
 </body>
 </html>
