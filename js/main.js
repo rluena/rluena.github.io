@@ -1,17 +1,15 @@
 (function(window, document, $){
-	var documentSize = $(document).width();
-	
+	var $header = $(header);
+	var $navbar = $('.navbar');
 
-	$(document).on('click', '.navicon', function(event) {
-		event.preventDefault();
-		$that = $(this);		
-		$that.siblings('ul').slideToggle('fast');
+	$(window).scroll(function(){
+		var pos = $(document).scrollTop();
+
+		if (pos >= 336) {
+			$navbar.removeClass('navbar-transparent');
+		} else {
+			$navbar.addClass('navbar-transparent');
+		}
 	});
 
-	// $(document).on('click', '.navbar>ul a', function(event) {
-	// 	event.preventDefault();
-	// 	/* Act on the event */
-		
-	// });
-	
 })(window, document, jQuery);

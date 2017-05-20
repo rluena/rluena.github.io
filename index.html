@@ -11,16 +11,18 @@
 	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 </head>
-<body id="top">
+<body id="top" data-spy="scroll" data-offset="80">
 
 	<header id="header">
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default navbar-fixed-top navbar-transparent">
 			<div class="container">
 				<ul class="nav navbar-nav">
-					<li><a href="#me">Me</a></li>
-					<li><a href="#work">Work</a></li>
+					<li><a href="#me">About</a></li>
 					<li><a href="#edu">Education</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#work">Work</a></li>
 					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Hire Me</a></li>
 					<li><a href="http://www.medium.com/@luenarabii">Articles</a></li>
 				</ul>
 			</div>
@@ -48,7 +50,7 @@
 		</div>
 	</header>
 
-	<div class="container">
+	<div class="container" id="main-container">
 		<section id="me" class="info-section about">
 			<h2 class="info-title">About</h2>
 			<hr class="title-divider">
@@ -175,7 +177,7 @@
 
 			<div class="row">
 				<div class="section-item work-container left-border" style="padding-left: 1em;">
-					<h4 class="item-title work-title">Web Developer <span class="date-right pull-right">Nov 2015 - Feb 2017</span></h4>
+					<h4 class="item-title work-title">Web Developer <span class="date-right pull-right">Nov 2015 - Jan 2017</span></h4>
 					<h5 class="item-subtitle">Transevents Co. LTD.</h5>
 					<ul>
 						<li>Responsible for web applications development using PHP, CodeIgniter framework and jQuery. Developing new features and bugs
@@ -196,13 +198,14 @@
 			</div>
 
 			<div class="text-center">
-				<a href="" class="btn btn-primary btn-lg" style="width: 10em;">Hire Me</a>
+				<a href="#contact" class="btn btn-primary btn-lg" style="width: 10em;">Hire Me</a>
 			</div>
 		</section>
 		<!-- End of work experience -->
 
-		<section id="projects" class="info-section projects-section">
+		<section id="projects" class="info-section projects-section" style="height: 300px;">
 			<h2 class="info-title">Projects</h2>
+			
 			<!--<div class="section-item project-container">
 				<h3 class="section-item-title project-title">Learnin Tanzania</h3>
 				<div class="section-item-desc project-desc">
@@ -262,21 +265,20 @@
 			</div>-->
 		</section>
 		<!-- End of project section -->
-		<section>
+		<section id="contact">
+			<div class="text-center contact">
+				<div class="div-col-1">
+					<h3>Hire Me</h3>
+					<hr>
+					<p><span>Phone:</span>+255-714-061234</p>
+					<p><span>Email:</span>luenarabii[at]gmail[dot]com</p>
+					<a href="http://github.com/rluena"><i class="fa fa-github fa-2x"></i></a>
+					<a href="http://medium.com/@rabiiluena"><i class="fa fa-medium fa-2x"></i></a>
+					<a href="http://twitter.com/rabiiluena"><i class="fa fa-twitter fa-2x"></i></a>
+				</div>			
+			</div>
 			
 		</section>
-	</div>
-
-	<div id="contact" class="text-center contact">
-		<div class="div-col-1">
-			<h3>Hire Me</h3>
-			<hr>
-			<p><span>Phone:</span>+255-714-061234</p>
-			<p><span>Email:</span>luenarabii[at]gmail[dot]com</p>
-			<a href="http://github.com/rluena"><i class="fa fa-github fa-2x"></i></a>
-			<a href="http://medium.com/@rabiiluena"><i class="fa fa-medium fa-2x"></i></a>
-			<a href="http://twitter.com/rabiiluena"><i class="fa fa-twitter fa-2x"></i></a>
-		</div>			
 	</div>
 	<div class="float-btn">
 		<a href="#top" class="btn btn-top">
@@ -287,6 +289,9 @@
 		Copyright &copy; 2017 Rabii Luena. Hosted By GitHub Pages.
 	</footer>
 	
-	<script src="dist/js/main.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+
 </body>
 </html>
