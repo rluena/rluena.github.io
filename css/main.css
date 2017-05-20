@@ -77,6 +77,10 @@ header> .jumbotron a {
 	/*font-weight: bold;*/
 }
 
+.navbar-collapse {
+	text-align: center !important;
+}
+
 .social-container a {
 	font-size: 0.8em;
 	letter-spacing: 0.8em;
