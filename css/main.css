@@ -165,6 +165,10 @@ section .left-border {
 	line-height: 1.5em;
 }
 
+.contact p {
+	font-size: 20px;
+}
+
 div.float-btn {
 	position: fixed;
 	right: 2em;
