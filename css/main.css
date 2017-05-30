@@ -113,6 +113,8 @@ header>.jumbotron a:hover {
 	letter-spacing: 0.5em;
 	text-transform: uppercase;
 	line-height: 2em;
+	margin-top: 1.5em;
+	margin-bottom: 1 em;
 }
 
 .jumbotron .contents-center>a.btn-default {
@@ -121,8 +123,13 @@ header>.jumbotron a:hover {
 	border: 2px solid;
 }
 
-section {
+section.info-section {
 	padding-bottom: 1.5em;
+	margin-top: 4em;
+}
+
+section#edu .left-border p {
+	text-align: left;
 }
 
 .work-experience p {
