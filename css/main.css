@@ -48,28 +48,44 @@ body {
 	color: #6D6E71;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	color: #000;
 }
 
 a {
 	color: #33CCCC;
 }
+
 header {
 	background: #33CCCC;
 }
-header> .jumbotron {
+
+header>.jumbotron {
 	background: transparent !important;
 }
 
-header> .jumbotron a {
-	color: #fff;
+header>.jumbotron a {
+	color: yellow;
+}
+
+header>.jumbotron a:hover {
+	color: grey;
 }
 
 .navbar-transparent {
 	background: transparent !important;
 	border: none !important;
 	text-align: center;
+}
+
+.navbar ul.nav li a {
+	font-size: 1.1em;
+	font-weight: bold;
 }
 
 .navbar-transparent .nav>li>a {
@@ -81,8 +97,12 @@ header> .jumbotron a {
 	text-align: center !important;
 }
 
+.social-container {
+	margin-top: 2.3em;
+}
+
 .social-container a {
-	font-size: 0.8em;
+	font-size: 1.2em;
 	letter-spacing: 0.8em;
 }
 
@@ -95,11 +115,12 @@ header> .jumbotron a {
 	line-height: 2em;
 }
 
-.jumbotron .contents-center>a.btn-default{
+.jumbotron .contents-center>a.btn-default {
 	background: transparent !important;
-	margin-top: 2em;
+	margin-top: 1em;
 	border: 2px solid;
 }
+
 section {
 	padding-bottom: 1.5em;
 }
@@ -138,6 +159,7 @@ section .left-border {
 
 
 /* About section */
+
 .about p {
 	text-align: center;
 	line-height: 1.4em;
@@ -147,11 +169,14 @@ section .left-border {
 .skills h4 {
 	color: #000;
 }
+
 .skills .row {
 	margin-bottom: 1em;
 }
 
+
 /* Skills */
+
 .skills ul {
 	list-style: none;
 	margin: 0px;
@@ -190,15 +215,12 @@ footer {
 		font-size: 2.5em;
 		letter-spacing: 2px;
 	}
-
 	.left-border {
 		margin-left: 5px;
 	}
-
 	.collapse {
 		background: #33CCCC;
 	}
-
 	.collapse li>a {
 		color: #fff !important;
 	}
