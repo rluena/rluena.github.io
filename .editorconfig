@@ -1,0 +1,14 @@
+root = true
+
+max_line_length = 80
+
+[*.{js,,less}]
+end_of_line = lf
+indent_style = tab
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+indent_size = 2
+
+[*.{html,xml,css}]
+indent_size = 4

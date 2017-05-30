@@ -14,5 +14,4 @@
 			// $collapse.css('background', '#33CCCC');
 		}
 	});
-
 })(window, document, jQuery);
